@@ -15,14 +15,14 @@ function Hero() {
                     <div className="form_item form_title">
                         <h1>
                             <span className="ohlone">Ohlone</span>
-                            <span className="hacks">Hacks 5.0</span> 
+                            <span className="hacks">Hacks 6.0</span> 
                         </h1>
                     </div>
                     <h2 className="form_item form_date">
                         Ohlone College, Fremont, CA
                     </h2>
                     <h2 className="form_item form_date">
-                        February 22-23, 2025 
+                        February 13-14, 2026
                     </h2>
 
                     {/* Flex container for bee + buttons */}
@@ -32,6 +32,7 @@ function Hero() {
                             <a
                                 className="form_button form_register"
                                 target="_blank"
+                                //todo change link
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSch8puXVeCb6MkMehUr1x7nvqOlClQV8n5NVczVIOoAbPnrog/viewform"
                             >
                                 <p>Register</p>
@@ -39,6 +40,7 @@ function Hero() {
                             <a
                                 className="form_button form_mentor"
                                 target="_blank"
+                                //todo change link
                                 href="https://forms.gle/rafHfMazTju8oM7z8"
                             >
                                 <p>Mentor</p>
