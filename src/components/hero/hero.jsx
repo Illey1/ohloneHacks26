@@ -33,7 +33,7 @@ function Hero() {
                                 className="form_button form_register"
                                 target="_blank"
                                 //todo change link
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSch8puXVeCb6MkMehUr1x7nvqOlClQV8n5NVczVIOoAbPnrog/viewform"
+                                href="https://forms.gle/2on35QuPw8jhJx7Q8" //updated the link
                             >
                                 <p>Register</p>
                             </a>
@@ -41,7 +41,7 @@ function Hero() {
                                 className="form_button form_mentor"
                                 target="_blank"
                                 //todo change link
-                                href="https://forms.gle/rafHfMazTju8oM7z8"
+                                href="https://forms.gle/fNX2ac1H64xMzp4j8" //updated link
                             >
                                 <p>Mentor</p>
                             </a>
