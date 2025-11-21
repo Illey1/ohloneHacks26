@@ -6,8 +6,7 @@ import './App.css'
 // import Example from './example/example'
 
 
-
-
+//random test comment
 
 import Navbar from './navbar/navbar'
 import Hero from './hero/hero'
