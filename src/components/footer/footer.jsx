@@ -62,7 +62,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-copyright">
-        &copy; 2025 OhloneHacks
+        &copy; 2026 OhloneHacks
       </div>
       <div className="footer-watermark">
         <small>Art by Lilly</small>
@@ -79,14 +79,14 @@ export default Footer;
 // Responsive CSS Styling
 const footerStyle = `
 .footer-container {
-  background-color: rgba(23, 16, 49, 0.9);
+  background:transparent;
   color: #fff;
   padding: 16px 0;
   transition: background-color 0.3s ease-in-out;
 }
 
 .footer-container.scrolled {
-  background-color: rgba(23, 16, 49, 1);
+  background-color: transparent;
 }
 
 .footer-content {
@@ -106,6 +106,10 @@ const footerStyle = `
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(255,255, 255, 0.9);
+  padding: 0.5rem;
+  border-radius: 12px;
+
 }
 
 .footer-logo {
@@ -119,6 +123,24 @@ const footerStyle = `
   align-items: center;
   gap: 12px;
 }
+
+.footer-socials a {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.footer-socials a:hover {
+  background:#7fa78a ;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(212, 197, 176, 0.5);
+}
+
+
 
 .footer-social-icon {
   width: 32px;

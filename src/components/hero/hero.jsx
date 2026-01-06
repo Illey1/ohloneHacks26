@@ -1,4 +1,4 @@
-import './hero.css';
+{/*import './hero.css';
 import Timer from './timer/timer';
 import '../App.css';
 
@@ -7,10 +7,11 @@ import cloud2 from './cloudLayer2.jpg';
 import ohloneBuilding from './ohloneBuilding.png';
 import bee from './bee.png'; // Import the bee image
 
+
 function Hero() {
     return (
         <div className="hero hero_container">
-            <div className="hero form_container">
+             <div className="hero form_container">
                 <div className="hero form_items">
                     <div className="form_item form_title">
                         <h1>
@@ -24,9 +25,10 @@ function Hero() {
                     <h2 className="form_item form_date">
                         February 13-14, 2026
                     </h2>
+*/}
 
                     {/* Flex container for bee + buttons */}
-                    <div className="form_buttons_wrapper">
+               {/*      <div className="form_buttons_wrapper">
                         <img className="bee" src={bee} alt="Bee" />
                         <div className="form_buttons">
                             <a
@@ -57,7 +59,8 @@ function Hero() {
                 </div>
             </div>
 
-            <div className="hero ohloneBuilding_wrapper">
+
+               <div className="hero ohloneBuilding_wrapper">
                 <div className="ohloneBuilding_container">
                     <img
                         className="ohloneBuilding"
@@ -65,6 +68,60 @@ function Hero() {
                         src={ohloneBuilding}
                         alt="ohloneBuilding"
                     />
+                </div>
+            </div>
+
+        </div>
+
+    );
+}
+
+export default Hero;
+*/}
+
+import './hero.css';
+import '../App.css';
+
+function Hero() {
+    return (
+        <div className="hero hero_container">
+            <div className="hero form_container">
+                <div className="hero form_items">
+                    <div className="form_item form_title">
+                        <h1>
+                            <span className="ohlone">Ohlone</span>
+                            <span className="hacks">Hacks 6.0</span>
+                        </h1>
+                    </div>
+
+                    <h2 className="form_item form_date">
+                        Ohlone College, Fremont, CA
+                    </h2>
+                    <h2 className="form_item form_date">
+                        February 13–14, 2026
+                    </h2>
+
+                    <div className="form_buttons_wrapper">
+                        <div className="form_buttons">
+                            <a
+                                className="form_button form_register"
+                                target="_blank"
+                                href="https://forms.gle/2on35QuPw8jhJx7Q8"
+                                rel="noreferrer"
+                            >
+                                <p>Register</p>
+                            </a>
+
+                            <a
+                                className="form_button form_mentor"
+                                target="_blank"
+                                href="https://forms.gle/fNX2ac1H64xMzp4j8"
+                                rel="noreferrer"
+                            >
+                                <p>Mentor</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

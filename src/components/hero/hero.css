@@ -6,29 +6,30 @@
     text-align: center; 
 }
 
-.form_item.form_title {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center; 
-}
 
 .ohlone {
-    color: #08090d; 
+    /* color: #08090d; */
+    color: #2d3a28 ;
     font-weight: bold;
+
 }
 
 .form_date {
     font-weight: bold;
-    text-align: center; 
+    text-align: center;
+    color: #1a1a1a ;
+
 }
 
 .hacks {
-    color: #526ab7; 
+   /* color: #283618; */
+    color: #4a3620 ;
     font-weight: bold;
-    text-align: center; 
+    text-align: center;
+
 }
 
-.hero.hero_container {
+/*.hero.hero_container {
     min-height: 100vh; 
     background: rgb(255, 255, 255);
     position: relative;
@@ -36,8 +37,35 @@
     overflow: hidden;
     z-index: 1;
     padding: 8rem 0 0rem;
+}*/
+
+.hero.hero_container {
+    min-height: 100vh;
+    background-image:
+            linear-gradient(
+                    135deg,
+                    rgba(168, 191, 204, 0.4) 0%,
+                    rgba(212, 197, 176, 0.3) 35%,
+                    rgba(107, 142, 122, 0.3) 70%,
+                    rgba(74, 93, 63, 0.4) 100%
+            ),
+            url('./fountain.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    width: 100%;
+    /*overflow: hidden;*/
+   /* padding: 11rem 0 0;*/
+    padding: clamp(4rem, 10vh, 11rem) 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+/*
 .clouds_wrapper {
     position: absolute;
     width: 100%;
@@ -69,8 +97,8 @@
     z-index: 2;
     animation-duration: 40s;
     filter: blur(1.6px);
-}
-
+}*/
+/*
 @keyframes floatClouds {
     0% {
         transform: translateX(0);
@@ -81,18 +109,29 @@
     100% {
         transform: translateX(0);
     }
+}*/
+
+.hero.hero_container::before {
+    content: "";
+    position: relative;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 0;
 }
 
 .hero.form_container {
     z-index: 13;
-    position: absolute;
-    left: 50%;
+   /* position: absolute;*/
+    margin-top: 2rem;
+    position: relative;
     top: 20%;
-    transform: translateX(-50%);
+    transform: none !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 }
 
 /* Ensure the bee is positioned to the left of the buttons */
@@ -105,10 +144,13 @@
     flex-wrap: wrap;
 }
 
+
+
+
 /* Stack buttons vertically */
 .form_buttons {
     display: flex;
-    flex-direction: column; /* Stack buttons */
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -127,28 +169,40 @@
     font-weight: bold;
     text-align: center;
     border-radius: 0.5rem;
-    transition: box-shadow 0.3s, transform 0.3s;
+    /*transition: box-shadow 0.3s, transform 0.3s;*/
+    transition: all 0.3s ease;
 }
 
 /* Register button */
 .form_register {
     color: rgb(255, 255, 255);
-    background: #526ab7;
-    box-shadow: 0px 8px 20px rgba(82, 106, 183, 1);
+    /*background: #4f6b3a;*/
+    background: #3d5a32 ;
+    box-shadow: 0px 8px 20px rgba(107, 142, 122, 0.45);
+    border: 2px solid transparent;
 }
 
 /* Mentor button */
 .form_mentor {
     color: rgb(255, 255, 255);
-    background: rgb(42, 51, 81);
-    box-shadow: 0px 8px 20px rgb(96, 113, 169);
+    /*background:#6b4e2e;*/
+    background: #4a3620 ;
+    box-shadow: 0px 8px 20px rgba(107, 78, 46, 0.45);
+    border: 2px solid transparent;
 }
 
 /* Button hover effects */
-.form_register:hover,
-.form_mentor:hover {
-    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.5);
+.form_register:hover{
+    background: #5a7866;
+    box-shadow: 0px 12px 30px rgba(107, 142, 122, 0.6);
     transform: translateY(-3px);
+    border: 2px solid #D4C5B0;
+}
+.form_mentor:hover {
+    background: #5a3f26;
+    box-shadow: 0px 12px 30px rgba(107, 78, 46, 0.6);
+    transform: translateY(-3px);
+    border: 2px solid #D4C5B0;
 }
 
 /* Bee */
@@ -200,16 +254,18 @@
 }
 
 /* Ensure the Ohlone Building remains properly positioned */
-.ohloneBuilding_container {
+.fountain_container {
     position: relative;
     width: 100%;
     margin-top: 0;
     z-index: 2;
-    height: 100vh;
+   /* height: 100vh;*/
+    height: auto;
+    min-height: 100vh;
     overflow: hidden;
 }
 
-.ohloneBuilding {
+.fountain {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -221,12 +277,13 @@
         position: absolute !important;
         left: 70% !important;
         top: 20% !important;
+        transform: translateX(10%);
     }
 }
 
 /* Prevent Ohlone building from clipping on large screens */
 @media (min-width: 1024px) and (max-width: 1681px) {
-    .ohloneBuilding_container {
+    .fountain_container {
         height: 110vh;  
         margin-top: -5vh; 
         overflow: visible; 
@@ -234,7 +291,7 @@
 }
 
 @media (min-width:1681px){
-    .ohloneBuilding_container {
+    .fountain_container {
         height: 109vh;  
         margin-top: -10vh; 
         overflow: visible; 
@@ -265,14 +322,15 @@
     .hero.hero_container {
         padding: 7rem 0 0rem;
         min-height: 100vh;
+        background-attachment: fixed ;
     }
 
-    .ohloneBuilding_container {
+    .fountain_container {
         height: 100vh;
         margin-top: 0;
     }
 
-    .ohloneBuilding {
+    .fountain {
         width: 100%;
         height: 100%;
         object-fit: cover;
