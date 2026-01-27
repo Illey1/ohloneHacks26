@@ -9,8 +9,8 @@
 
 .ohlone {
     /* color: #08090d; */
-    color: #2d3a28 ;
-    font-weight: bold;
+    color: #3E582E ;
+    font-weight: 900;
 
 }
 
@@ -23,8 +23,8 @@
 
 .hacks {
    /* color: #283618; */
-    color: #4a3620 ;
-    font-weight: bold;
+   color: #46331B; 
+   font-weight: 800;
     text-align: center;
 
 }
@@ -62,6 +62,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: saturate(1.15) contrast(1.05);
 }
 
 
@@ -117,6 +118,10 @@
     inset: 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 0;
+    background:
+    radial-gradient(circle at 30% 25%, rgba(255,255,255,0.18), transparent 55%),
+    radial-gradient(circle at 70% 70%, rgba(34,197,94,0.10), transparent 55%),
+    rgba(255,255,255,0.08);
 }
 
 .hero.form_container {
@@ -212,6 +217,13 @@
     animation: bee_float 3s ease-in-out infinite;
     margin-right: 20px; /* Space from buttons */
 }
+
+.form_title h1 {
+    letter-spacing: 0.5px;
+    text-shadow:
+      0 2px 10px rgba(255,255,255,0.55),
+      0 12px 30px rgba(0,0,0,0.22);
+  }
 
 /* Floating animation */
 @keyframes bee_float {
@@ -348,3 +360,5 @@
         width: auto;
     }
 }
+
+
