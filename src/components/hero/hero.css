@@ -9,7 +9,7 @@
 
 .ohlone {
     /* color: #08090d; */
-    color: #3E582E ;
+    color: #46331B ;
     font-weight: 900;
 
 }
@@ -41,15 +41,7 @@
 
 .hero.hero_container {
     min-height: 100vh;
-    background-image:
-            linear-gradient(
-                    135deg,
-                    rgba(168, 191, 204, 0.4) 0%,
-                    rgba(212, 197, 176, 0.3) 35%,
-                    rgba(107, 142, 122, 0.3) 70%,
-                    rgba(74, 93, 63, 0.4) 100%
-            ),
-            url('./fountain.png');
+   background: url('./fountain.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
