@@ -123,7 +123,8 @@ export default function Slideshow() {
   return (
     <section
       style={{
-        backgroundColor: "#171031",
+       /* backgroundColor: "#171031",*/
+         background:"transparent",
         padding: "40px 0",
         display: "flex",
         flexDirection: "column",

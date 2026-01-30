@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
-import OHLogo from "../../assets/logo-one.png";
+import OHLogo from "../../assets/newLogo.png";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -79,8 +79,8 @@ const Navbar = () => {
                     <img
                         alt="OH Logo"
                         loading="lazy"
-                        width="60"
-                        height="60"
+                        width="100"
+                        height="80"
                         decoding="async"
                         className="OH Logo"
                         src={OHLogo}

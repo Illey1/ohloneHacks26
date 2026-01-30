@@ -1,5 +1,7 @@
 .faq-section {
-    background: linear-gradient(to bottom, #171031 0%, #100b20 30%, #08090d 80%);
+   /* background: linear-gradient(to bottom, #171031 0%, #100b20 30%, #08090d 80%); */
+  /*  background: linear-gradient(to bottom, #2d3a28, #3d5a32, #5a7866, #7fa78a);*/
+    background: transparent;
     color: white;
     padding: 80px 5vw;
     text-align: center;

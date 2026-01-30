@@ -1,11 +1,13 @@
 .sponsors-section {
     padding: 2rem 1rem; 
     text-align: center;
-    background: linear-gradient(to bottom, 
-        #08090d 0%,   /* Matches the bottom of .faq-section */
-        #100b20 30%,  /* Soft transition */
-        #171031 80%   /* Deep Purple */
+    /*background: linear-gradient(to bottom,
+        #08090d 0%,   Matches the bottom of .faq-section
+        #100b20 30%,  Soft transition
+       #171031 80%    Deep Purple
     );
+    */
+    background: transparent;
 }
 
 

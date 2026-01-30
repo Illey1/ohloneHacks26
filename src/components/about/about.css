@@ -4,7 +4,9 @@
     margin: 0 auto;
     padding: 2rem 1rem;
     text-align: center;
-    background: linear-gradient(to bottom, #171031, #2d1f5d, #171031);
+   /* background: linear-gradient(to bottom, #171031, #2d1f5d, #171031);*/
+   /* background: linear-gradient(to bottom, #2d3a28, #3d5a32, #5a7866, #7fa78a); */
+    background:transparent;
     color: white;
     min-height: 100vh;
     display: flex;
@@ -35,7 +37,8 @@
     font-size: 2.5rem;
     margin-bottom: 10px;
     font-weight: 700;
-    color: #526ab7;
+    /*color: #526ab7;*/
+    color: #32200d;
 }
 
 .about-text p {
@@ -46,7 +49,8 @@
 }
 
 .highlight {
-    color: #526ab7;
+   /* color: #526ab7; */
+    color: #32200d;
 }
 
 /* Align the bottom section side by side */
@@ -95,7 +99,8 @@
 .left-info:hover .word {
     transform: translateY(-10px);
     opacity: 1;
-    color: #526ab7;
+  /*  color: #526ab7; */
+    color: #2d3a28;
 }
 
 /* Staggered hover animation */

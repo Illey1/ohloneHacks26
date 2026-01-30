@@ -6,7 +6,8 @@ footer {
     min-height: 188px;
     width: 100%;
     display: flex;
-    border: solid 1px red; 
+    border: solid 1px red;
+    background: transparent;
 }
 
 .footer_item {

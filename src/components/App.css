@@ -12,18 +12,50 @@
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ /* background: linear-gradient(to bottom, #2d3a28, #3d5a32, #5a7866, #7fa78a);*/
+  background: linear-gradient(to bottom,  #4B5D3A, #3F5031,#2F3F26); 
   height:100vh;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 body, html {
+
   
+}
+#root {
+   /*background: linear-gradient(to bottom, #2d3a28, #3d5a32, #5a7866, #7fa78a); */
+    background: linear-gradient(to bottom,  #4B5D3A, #3F5031,#2F3F26);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Remove backgrounds from individual sections */
+section {
+    background: transparent !important;
+}
+
+#home,
+#about,
+#gallery,
+#faq,
+#sponsors {
+    background: transparent !important;
+}
+
+/* If sections need semi-transparent overlays */
+.section-overlay {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 4rem 2rem;
 }
 
 @media (hover: hover) {
   button:hover {
-      background-color: blue;
+      background-color: #2d3a28;
+
   }
 }
 
