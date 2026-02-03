@@ -1,7 +1,10 @@
 import React from "react";
 import "./about.css";
-import building from "./building.png"; // Correct import for image
-import hill from "./hill.png"; // Correct import for image
+//import building from "./building.png"; // Correct import for image
+//import hill from "./hill.png"; // Correct import for image
+import building from "./newBuilding.webp";
+import hill from "./newHill.webp";
+
 
 const AboutUs = () => {
   return (
