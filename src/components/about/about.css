@@ -38,7 +38,8 @@
     margin-bottom: 10px;
     font-weight: 700;
     /*color: #526ab7;*/
-    color: #32200d;
+    /*color: #32200d;*/
+    color: #7A3F2A;
 }
 
 .about-text p {
@@ -50,7 +51,8 @@
 
 .highlight {
    /* color: #526ab7; */
-    color: #32200d;
+   /* color: #32200d;*/
+    color: #7A3F2A;
 }
 
 /* Align the bottom section side by side */
@@ -100,7 +102,8 @@
     transform: translateY(-10px);
     opacity: 1;
   /*  color: #526ab7; */
-    color: #2d3a28;
+   /* color: #2d3a28;*/
+    color: #7A3F2A;
 }
 
 /* Staggered hover animation */

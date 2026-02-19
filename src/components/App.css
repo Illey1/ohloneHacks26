@@ -28,7 +28,13 @@ body, html {
 }
 #root {
    /*background: linear-gradient(to bottom, #2d3a28, #3d5a32, #5a7866, #7fa78a); */
-    background: linear-gradient(to bottom,  #4B5D3A, #3F5031,#2F3F26);
+   /* background: linear-gradient(to bottom,  #4B5D3A, #3F5031,#2F3F26);*/
+    background: linear-gradient(
+            135deg,
+            #B8D977,
+            #7EA84C,
+            #3E6B33
+    );
     background-attachment: fixed;
     min-height: 100vh;
 }

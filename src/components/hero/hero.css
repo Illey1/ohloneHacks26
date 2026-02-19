@@ -9,7 +9,8 @@
 
 .ohlone {
     /* color: #08090d; */
-    color: #46331B ;
+  /* color: #46331B ;*/
+    color: white;
     font-weight: 900;
 
 }
@@ -17,13 +18,14 @@
 .form_date {
     font-weight: bold;
     text-align: center;
-    color: #1a1a1a ;
+    color: white ;
 
 }
 
 .hacks {
    /* color: #283618; */
-   color: #46331B; 
+   /* color: #46331B;*/
+    color: white;
    font-weight: 800;
     text-align: center;
 
@@ -175,7 +177,8 @@ background-attachment: scroll, scroll;
 .form_register {
     color: rgb(255, 255, 255);
     /*background: #4f6b3a;*/
-    background: #3d5a32 ;
+   /* background: #3d5a32 ;*/
+    background: #7EA84C;
     box-shadow: 0px 8px 20px rgba(107, 142, 122, 0.45);
     border: 2px solid transparent;
 }
@@ -184,20 +187,21 @@ background-attachment: scroll, scroll;
 .form_mentor {
     color: rgb(255, 255, 255);
     /*background:#6b4e2e;*/
-    background: #4a3620 ;
+   /* background: #4a3620 ;*/
+    background: #7A3F2A;
     box-shadow: 0px 8px 20px rgba(107, 78, 46, 0.45);
     border: 2px solid transparent;
 }
 
 /* Button hover effects */
 .form_register:hover{
-    background: #5a7866;
+    background: #7EA84C;
     box-shadow: 0px 12px 30px rgba(107, 142, 122, 0.6);
     transform: translateY(-3px);
     border: 2px solid #D4C5B0;
 }
 .form_mentor:hover {
-    background: #5a3f26;
+    background: #7A3F2A;
     box-shadow: 0px 12px 30px rgba(107, 78, 46, 0.6);
     transform: translateY(-3px);
     border: 2px solid #D4C5B0;

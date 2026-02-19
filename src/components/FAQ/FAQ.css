@@ -14,7 +14,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 30px;
-    color: #d3d6f3; /* Soft light blue */
+    color: white; /* Soft light blue */
 }
 
 .faq-items {
@@ -47,7 +47,7 @@
 .answer {
     font-size: 1.1rem;
     margin-top: 10px;
-    color: #d3d6f3;
+    color: white;
     display: block;
 }
 
