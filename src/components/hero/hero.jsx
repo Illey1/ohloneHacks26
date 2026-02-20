@@ -94,8 +94,7 @@ function Hero() {
             </h1>
           </div>
 
-          <h2 className="form_item form_date">Ohlone College, Fremont, CA</h2>
-          <h2 className="form_item form_date">February 20–21, 2026</h2>
+
 
           <div className="form_buttons_wrapper">
             <div className="form_buttons">
@@ -116,6 +115,8 @@ function Hero() {
               >
                 <p>Mentor</p>
               </a>
+              <h2 className="form_item form_date">Ohlone College, Fremont, CA</h2>
+              <h2 className="form_item form_date">February 20–21, 2026</h2>
             </div>
           </div>
         </div>

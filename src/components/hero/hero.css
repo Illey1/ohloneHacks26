@@ -9,8 +9,7 @@
 
 .ohlone {
     /* color: #08090d; */
-  /* color: #46331B ;*/
-    color: white;
+    color: #46331B ;
     font-weight: 900;
 
 }
@@ -18,14 +17,13 @@
 .form_date {
     font-weight: bold;
     text-align: center;
-    color: white ;
+    color: #ffffff ;
 
 }
 
 .hacks {
    /* color: #283618; */
-   /* color: #46331B;*/
-    color: white;
+   color: #46331B; 
    font-weight: 800;
     text-align: center;
 
@@ -44,11 +42,11 @@
 .hero.hero_container {
     min-height: 100vh;
    /* GIF (top layer) centered toward the bottom, then the milly_bg base */
-background-image: url('./image.gif'), url('./milly_bg.png');
-background-position: center 88%, center;   /* first = GIF (center, slightly above bottom), second = base image */
-background-size: 40% auto, cover;           /* GIF uses 40% width (auto height), base covers whole area */
-background-repeat: no-repeat, no-repeat;
-background-attachment: scroll, scroll;
+    background-image: url('./image.gif'), url('./milly_bg.png');
+    background-position: center 88%, center;   /* first = GIF (center, slightly above bottom), second = base image */
+    background-size: 40% auto, cover;           /* GIF uses 40% width (auto height), base covers whole area */
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
     position: relative;
     width: 100%;
     /*overflow: hidden;*/
@@ -177,8 +175,7 @@ background-attachment: scroll, scroll;
 .form_register {
     color: rgb(255, 255, 255);
     /*background: #4f6b3a;*/
-   /* background: #3d5a32 ;*/
-    background: #7EA84C;
+    background: #3d5a32 ;
     box-shadow: 0px 8px 20px rgba(107, 142, 122, 0.45);
     border: 2px solid transparent;
 }
@@ -187,21 +184,20 @@ background-attachment: scroll, scroll;
 .form_mentor {
     color: rgb(255, 255, 255);
     /*background:#6b4e2e;*/
-   /* background: #4a3620 ;*/
-    background: #7A3F2A;
+    background: #4a3620 ;
     box-shadow: 0px 8px 20px rgba(107, 78, 46, 0.45);
     border: 2px solid transparent;
 }
 
 /* Button hover effects */
 .form_register:hover{
-    background: #7EA84C;
+    background: #5a7866;
     box-shadow: 0px 12px 30px rgba(107, 142, 122, 0.6);
     transform: translateY(-3px);
     border: 2px solid #D4C5B0;
 }
 .form_mentor:hover {
-    background: #7A3F2A;
+    background: #5a3f26;
     box-shadow: 0px 12px 30px rgba(107, 78, 46, 0.6);
     transform: translateY(-3px);
     border: 2px solid #D4C5B0;
