@@ -156,6 +156,7 @@ export default function Slideshow() {
           position: "relative",
           display: "flex",
           cursor: "grab",
+          touchAction: "pan-y",
           borderRadius: "20px",
           backgroundColor: "#000",
           marginBottom: "0px",
