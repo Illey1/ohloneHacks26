@@ -1,32 +1,35 @@
 import { useState, useEffect, useRef } from "react";
 
-const images = [
-  "/2025Images/101_0446.JPG",
-  "/2025 Images/_MGL0408_1.jpg",
+const rawPaths = [
+  "2025Images/101_0446.JPG",
+  "2025Images/_MGL0408_1.jpg",
   "2025Images/_MGL0403_1.jpg",
-  "/2025Images/_MGL0405_1.jpg",
-  "/2025Images/_MGL0459_1.jpg",
-  "/2025Images/_MGL0484_1.jpg",
-  "/2025Images/_MGL0489_1.jpg",
-  "/2025Images/_MGL0492_1.jpg",
-  "/2025 Images/_MGL0444_1.jpg",
-  "/2025 Images/_MGL0461_1.jpg",
-  "/2025 Images/_MGL0472_1.jpg",
-  "/2025Images/_MGL0496_1.jpg",
-  "/2025Images/_MGL0541_1.jpg",
-  "/2025Images/_MGL0548_1.jpg",
-  "/2025Images/_MGL0568_1.jpg",
-  "/2025Images/_MGL0394_1.jpg",
-  "/2025Images/101_0479.JPG",
-  "/2025Images/IMG_0071.JPG",
-  "/2025Images/_MGL0572_1.jpg",
-  "/2025Images/3AQ72751.jpg",
-  "/2025 Images/PHOTO-2025-02-24-21-08-25.jpg",
-  "/2025Images/3AQ72781.jpg",
-  "/2025Images/PHOTO-2025-02-24-21-09-14.jpg",
-  "/2025Images/3AQ72801.jpg",
-  "/2025Images/PHOTO-2025-02-24-21-08-17.jpg",
+  "2025Images/_MGL0405_1.jpg",
+  "2025Images/_MGL0459_1.jpg",
+  "2025Images/_MGL0484_1.jpg",
+  "2025Images/_MGL0489_1.jpg",
+  "2025Images/_MGL0492_1.jpg",
+  "2025Images/_MGL0444_1.jpg",
+  "2025Images/_MGL0461_1.jpg",
+  "2025Images/_MGL0472_1.jpg",
+  "2025Images/_MGL0496_1.jpg",
+  "2025Images/_MGL0541_1.jpg",
+  "2025Images/_MGL0548_1.jpg",
+  "2025Images/_MGL0568_1.jpg",
+  "2025Images/_MGL0394_1.jpg",
+  "2025Images/101_0479.JPG",
+  "2025Images/IMG_0071.JPG",
+  "2025Images/_MGL0572_1.jpg",
+  "2025Images/3AQ72751.jpg",
+  "2025Images/PHOTO-2025-02-24-21-08-25.jpg",
+  "2025Images/3AQ72781.jpg",
+  "2025Images/PHOTO-2025-02-24-21-09-14.jpg",
+  "2025Images/3AQ72801.jpg",
+  "2025Images/PHOTO-2025-02-24-21-08-17.jpg",
 ];
+
+const base = import.meta.env.BASE_URL || "/";
+const images = rawPaths.map((p) => `${base}${p}`);
 
 // Duplicate first and last images for seamless looping
 const loopImages = [images[images.length - 1], ...images, images[0]];

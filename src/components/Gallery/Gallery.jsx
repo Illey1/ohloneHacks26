@@ -1,21 +1,24 @@
 import { useState, useEffect, useRef } from "react";
 
-const images = [
-  "/Images/IMG_4023.png",
-  "/Images/IMG_4121.png",
-  "/Images/IMG_4182.png",
-  "/Images/IMG_4202.png",
-  "/Images/IMG_4292.png",
-  "/Images/IMG_4083.png",
-  "/Images/IMG_4301.png",
-  "/Images/IMG_4310.png",
-  "/Images/IMG_4163.png",
-  "/Images/IMG_4193.png",
-  "/Images/IMG_4223.png",
-  "/Images/IMG_4256.png",
-  "/Images/IMG_4158.png",
-  "/Images/IMG_4078.png",
+const rawPaths = [
+  "Images/IMG_4023.png",
+  "Images/IMG_4121.png",
+  "Images/IMG_4182.png",
+  "Images/IMG_4202.png",
+  "Images/IMG_4292.png",
+  "Images/IMG_4083.png",
+  "Images/IMG_4301.png",
+  "Images/IMG_4310.png",
+  "Images/IMG_4163.png",
+  "Images/IMG_4193.png",
+  "Images/IMG_4223.png",
+  "Images/IMG_4256.png",
+  "Images/IMG_4158.png",
+  "Images/IMG_4078.png",
 ];
+
+const base = import.meta.env.BASE_URL || "/";
+const images = rawPaths.map((p) => `${base}${p}`);
 
 // Duplicate first and last images for seamless looping
 const loopImages = [images[images.length - 1], ...images, images[0]];
