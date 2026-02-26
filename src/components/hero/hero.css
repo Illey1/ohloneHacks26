@@ -335,7 +335,11 @@
     .hero.hero_container {
         padding: 7rem 0 0rem;
         min-height: 100vh;
-        background-attachment: fixed ;
+        /* On mobile anchor the base background image to the bottom so the building remains visible
+           and disable fixed attachment which can behave oddly on mobile browsers */
+        background-attachment: scroll;
+        /* first value = GIF position (unchanged), second value = base image anchored to bottom center */
+        background-position: center 88%, center bottom;
     }
 
     .fountain_container {
