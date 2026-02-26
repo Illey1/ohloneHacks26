@@ -8,17 +8,19 @@ import "./Sponsors.css";
 function Sponsors() {
     const sponsors = [
         { name: "ASOC", logo: ASOCLogo, link: "https://www.asocohlone.org/" },
-        { name: "CodeForCause", logo: codeforcauseLogo, link: "https://www.codeforcause.dev/" },
-        { name: "MarchUp", logo: marchUpLogo, link: "https://marchup.net" },
         { name: "NordPass", logo: "https://images.saasworthy.com/nordpass_6669_logo_1719204895_2ykhq.png", link: "https://nordpass.com" },
         { name: "AoPS", logo: AOPSLogo, link: "https://artofproblemsolving.com/" },
-        
-        { name: "Saily", logo: "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/esizssebffamghufonie", link: "https://saily.com" },
+        { name: "Balsamiq", logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjgswaEaC8rEvxwP14reSkjSMERq34aLAFtQ&s", link: "https://balsamiq.com/"},
         { name: "NordVPN", logo: "https://play-lh.googleusercontent.com/G166NGtIsLp_UdpDjC1FF6dooIgd83fs2lstSI7mhW06q7gmiE1cw4BZ16OCX0WokPE", link: "https://nordvpn.com" },
+        { name: "InterviewCake", logo: "https://www.assertnotmagic.com/img/interview-cake.jpg", link: "https://www.interviewcake.com" },
+        { name: "1Password", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/1Password_wordmark_blue_2023.svg/3840px-1Password_wordmark_blue_2023.svg.png", link: "https://1password.com" },
+        { name: "Saily", logo: "https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2024/02/Saily-logo-770x422.png", link: "https://saily.com"},
         { name: "Incogni", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdhvUze9qyZi_wylK2rZKdUdxTTLBLTW7_vg&s", link: "https://incogni.com" },
-        { name: "CodeCrafters.io", logo: "https://media.licdn.com/dms/image/v2/D560BAQEqzh_Uhd_rbw/company-logo_200_200/company-logo_200_200/0/1684437783960/codecraftersio_logo?e=2147483647&v=beta&t=xehlblVMw6zGFt5W7qBeiK4MkSjRxbxndVn_SSA-4h0", link: "https://codecrafters.io" },
-        { name: "InterviewCake", logo: "https://www.interviewcake.com/static//images/cake_white_on_blue_600.png", link: "https://www.interviewcake.com" },
-        { name: "1Password", logo: "https://assets.wheelhouse.com/media/_solution_logo_11062023_16183098.png", link: "https://1password.com" },
+        { name: "nexos.ai", logo: "https://lever-client-logos.s3.us-west-2.amazonaws.com/85f55f08-16c4-45eb-8455-e8978a378db4-1743516114537.png", link: "https://nexos.ai/" },
+
+       /* { name: "CodeForCause", logo: codeforcauseLogo, link: "https://www.codeforcause.dev/"},
+        { name: "MarchUp", logo: marchUpLogo, link: "https://marchup.net" },
+        { name: "CodeCrafters.io", logo: "https://media.licdn.com/dms/image/v2/D560BAQEqzh_Uhd_rbw/company-logo_200_200/company-logo_200_200/0/1684437783960/codecraftersio_logo?e=2147483647&v=beta&t=xehlblVMw6zGFt5W7qBeiK4MkSjRxbxndVn_SSA-4h0", link: "https://codecrafters.io" },*/
         
         
     ];
