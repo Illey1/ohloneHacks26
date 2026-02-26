@@ -65,7 +65,7 @@ const Footer = () => {
         &copy; 2026 OhloneHacks
       </div>
       <div className="footer-watermark">
-        <small>Art by Lilly</small>
+        <small>Art by Milly</small>
         <br />
         <small>Made with 💖 by ASOC R&D</small>
       </div>
