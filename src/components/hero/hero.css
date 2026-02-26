@@ -42,7 +42,7 @@
 .hero.hero_container {
     min-height: 100vh;
    /* GIF (top layer) centered toward the bottom, then the milly_bg base */
-    background-image: url('./image.gif'), url('./milly_bg.png');
+    background-image: url('./image.gif'), url('./MAIN_MILLY.png');
     background-position: center 88%, center;   /* first = GIF (center, slightly above bottom), second = base image */
     background-size: 40% auto, cover;           /* GIF uses 40% width (auto height), base covers whole area */
     background-repeat: no-repeat, no-repeat;
