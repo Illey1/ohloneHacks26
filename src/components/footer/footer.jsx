@@ -65,7 +65,11 @@ const Footer = () => {
         &copy; 2026 OhloneHacks
       </div>
       <div className="footer-watermark">
+<<<<<<< HEAD
         <small>Art by Cheuk Yin Li (Milly)</small>
+=======
+        <small>Art by Milly</small>
+>>>>>>> 03f09b5101d5e5a0b6313f81975e31cea7046cf7
         <br />
         <small>Made with 💖 by ASOC R&D</small>
       </div>
