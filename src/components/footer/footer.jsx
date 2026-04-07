@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import OHLogo from "../../assets/logo-one.png";
+import  { useState, useEffect } from 'react';
+import OhloneLogo from "../../assets/newLogo.png";
 import ASOCLogo from '../../assets/Student-Legasdf.png';
 
 const Footer = () => {
@@ -22,13 +22,13 @@ const Footer = () => {
           <img
             alt="OhloneHacks logo"
             className="footer-logo"
-            src={OHLogo}
+            src={OhloneLogo}
           />
         </div>
 
         {/* Social Media Icons - Center */}
         <div className="footer-socials">
-          <a href="https://www.instagram.com/ohlonehacks25/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/ohlonehacks26/" target="_blank" rel="noopener noreferrer">
             <img
               className="footer-social-icon"
               src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
